@@ -1,0 +1,32 @@
+{
+    "name": "componenta/stream-iterator",
+    "description": "Stream iterator for line-based resource traversal",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^8.4",
+        "psr/http-message": "^2.0"
+    },
+    "require-dev": {
+        "nyholm/psr7": "^1.8",
+        "pestphp/pest": "^4.0",
+        "phpunit/phpunit": "^12.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Componenta\\Stdlib\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Componenta\\Stdlib\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "minimum-stability": "stable"
+}
